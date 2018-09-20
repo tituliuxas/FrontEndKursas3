@@ -1,0 +1,39 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+<link rel="stylesheet" href=tablestyle
+}
+th, td {
+    padding: 15px;
+}
+th, td, tr {
+    text-align: center;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 15px;
+}
+th, td, tr {
+    text-align: center;
+body {
+    background-color: linen;
+}
+h1 {
+    color: maroon;
+    margin-left: 40px;
+}  img {
+       border-radius: 50%;
+   } th {
+         color: yellow;
+         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+     td {
+    text-shadow: 2px 2px 5px red;
+      }
+h2{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+    </style>
