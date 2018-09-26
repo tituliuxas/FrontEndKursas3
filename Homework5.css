@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.header {
+    color: white;
+    background-color: Black;
+    text-align: center;
+    padding: 20px;
+    width: 700px;
+}
+
+.column {
+    float: left;
+}
+
+.column.side {
+    width: 10%;
+}
+
+.column.middle {
+    width: 40%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+@media screen and (max-width: 700px) {
+    .column.side, .column.middle {
+        width: 66%;
+    }
+}
+
+ol.demo {
+    list-style-type: none;
+    margin: 15px 10px 10px 10px;
+}

@@ -1,17 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        h2 {
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+    </style>
+    <style>
+        td {
+            text-shadow: 2px 2px 5px red;
+        }
+    </style>
+    <style>
+        th {
+            color: yellow;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    </style>
+    <style>
+        img {
+            border-radius: 50%;
+        }
+    </style>
+
+    <style>
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
     <meta charset="UTF-8">
-    <title>Homework2</title>
-    <link rel="stylesheet" href="tablestyle.css"
+    <title>Homework1</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        th, td, tr {
+            text-align: center;
+        }
+
+    </style>
+    <style>
+        body {
+            background-color: linen;
+        }
+
+        h1 {
+            color: maroon;
+            margin-left: 40px;
+        }
+    </style>
 </head>
 <body>
 
+<h2>Homework1</h2>
 
-<h2>Homework2</h2>
 
-
-<table style="width:66%">
+<table style="width:80%">
     <tr>
         <th colspan="2">Pavadinimas</th>
         <th>Aprašymas</th>
@@ -24,29 +85,43 @@
     </tr>
     <tr>
         <td>Obuolys</td>
-        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMioZh7RJAZ40LdShaKDLvN4PItMUGA5TpQdp_O1O6R9sNZNW" alt="Obuolys" width="80" height="80"></td>
-        <td>Būdingas obelų vaisius, morfologiškai irgi vadinamas obuoliu. Obuolyje yra 3-5 lizdai su 2-3 sėklomis lizde. Vaisiaus luobelė labai plona, minkštimas sultingas, be sukietėjusių ląstelių.</td>
+        <td><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMioZh7RJAZ40LdShaKDLvN4PItMUGA5TpQdp_O1O6R9sNZNW"
+                alt="Obuolys" width="80" height="80"></td>
+        <td>Būdingas obelų vaisius, morfologiškai irgi vadinamas obuoliu. Obuolyje yra 3-5 lizdai su 2-3 sėklomis lizde.
+            Vaisiaus luobelė labai plona, minkštimas sultingas, be sukietėjusių ląstelių.
+        </td>
         <td>5kg</td>
-        <td><button type="button">Pirkti</button></td>
+        <td>
+            <button class="button">Pirkti</button>
+        </td>
 
     </tr>
     <tr>
     <tr>
         <td>Apelsinas</td>
-        <td><img src="https://jurasta.com/media/catalog/product/cache/12/image/9df78eab33525d08d6e5fb8d27136e95/o/r/orange_1.jpg" alt="Apelsinas" width="80" height="80"></td>
+        <td><img
+                src="https://jurasta.com/media/catalog/product/cache/12/image/9df78eab33525d08d6e5fb8d27136e95/o/r/orange_1.jpg"
+                alt="Apelsinas" width="80" height="80"></td>
         <td> Apelsino vaisiai ir žiedai. Apelsinai – citrinvaisiai, kuriuos mezga kai kurie citrinmedžiai</td>
         <td>4kg</td>
-        <td><button type="button">Pirkti</button></td>
+        <td>
+            <button class="button">Pirkti</button>
+        </td>
 
     <tr>
         <td colspan="5">Darzoves</td>
     </tr>
-
-    <td>Morka</td>
-    <td><img src="http://www.sos03.lt/files/images/Kas%20dien%20po%20morka.jpg" alt="Morka" width="80" height="80"</td>
-    <td>Morka (daucus) yra salierinių šeimos augalų genties, jų yra 20 rūšių. Savaime paplitusi Šiaurės Afrikoje, Pietų Azijoje, Šiaurės Amerikoje. Lietuviški sinonimai: burkūnas, morkva, garmolė.
-    </td>
-    <td>52 kg</td>
-    <td><button type="button">Pirkti</button></td>
-</body>
-</html>
+    <tr>
+        <td>Morka</td>
+        <td><img src="http://www.sos03.lt/files/images/Kas%20dien%20po%20morka.jpg" alt="Morka" width="80" height="80">
+        </td>
+        <td>Morka (daucus) yra salierinių šeimos augalų genties, jų yra 20 rūšių. Savaime paplitusi Šiaurės Afrikoje,
+            Pietų Azijoje, Šiaurės Amerikoje. Lietuviški sinonimai: burkūnas, morkva, garmolė.
+        </td>
+        <td>52 kg</td>
+        <td>
+            <button class="button">Pirkti</button>
+        </td>
+    </tr>
+</table>

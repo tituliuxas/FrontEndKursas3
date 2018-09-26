@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://otvoriprozor.com/wp-content/uploads/2015/03/plava-pozadina-izrada-sajta.jpg);
+}
+
+table {
+    border-collapse: collapse;
+    border-style: solid;
+   width:100%;
+    margin: 5px 50px 50px 550px;
+}
+
+td, th {
+    text-align: center;
+    border: 3px solid grey;
+    height:60px;
+}
+td{
+    color:darkgrey;
+}
+th{
+     color:white;
+      background-color: #009933;}
+.style{
+    background-color: white;
+    color: #0000ff;
+}
+
