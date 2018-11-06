@@ -1,0 +1,16 @@
+* {
+    box-sizing:border-box;
+}
+body, html {
+    height:100%;
+}
+.header {
+    background-color: #616161;
+    color: lightgray;
+    font-size: 20px;
+    margin:auto;
+    padding: 20px;
+}
+.middle {
+
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=Homework10.css>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+</head>
+<body>
+<!-- Navbar -->
+<div id="Navbar">
+        <a href="#home">
+            <div class="button">HOME</div>
+        </a>
+        <a href="#menu">
+            <div class="button">MENU</div>
+        </a>
+        <a href="#about">
+            <div class="button">ABOUT</div>
+        </a>
+        <a href="#googleMap">
+            <div class="button">CONTACT</div>
+        </a>
+</div>
+
+
+<!-- Header  -->
+<header class="bgimg" id="home">
+    <div class="display-bottomleft">
+        <span class="open">Open from 10am to 12pm</span>
+    </div>
+    <div id="display-middlecenter">
+        <span style="font-size:100px;">thin<br>CRUST PIZZA</span>
+            <br><a href="#menu"><button>Let me see the menu</button></a>
+    </div>
+</header>
+    <!-- Menu Container -->
+    <div id="menu">
+    <div id="menuheader">THE MENU</div>
+        <div id="menucontainer"></div>
+        <button class="menured" onclick="changePage(Pizza); changeActiveBtn(this);">Pizza</button>
+        <button class="menublack" onclick="changePage(Pasta); changeActiveBtn(this);">Salads</button>
+        <button class="menublack" onclick="changePage(Starters); changeActiveBtn(this);">Starters</button>
+    </div>
+            <div id="menusection" class="list">
+                <h1><b>Margherita</b> <span class="pname">$12.50</span></h1>
+                <p class="ingr">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                <hr>
+                <h1><b>Formaggio</b> <span class="pname">$15.50</span></h1>
+                <p class="ingr">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                <hr>
+                <h1><b>Chicken</b> <span class="pname">$17.00</span></h1>
+                <p class="ingr">Fresh tomatoes, mozzarella, chicken, onions</p>
+                <hr>
+                <h1><b>Pineapple'o'clock</b> <span class="pname">$16.50</span></h1>
+                <p class="ingr">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                <hr>
+                <h1><b>Meat Town</b> <span class="hot">Hot!</span><span class="pname">$20.00</span></h1>
+                <p class="ingr">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                <hr>
+                <h1><b>Parma</b> <span class="new">New</span><span class="pname">$21.50</span></h1>
+                <p class="ingr">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+            </div>
+<div id="Pasta" class="list hidden">
+    <h1><b>Lasagna</b> <span class="new">Popular</span> <span class="pname">$13.50</span></h1>
+    <p class="ingr">Special sauce, mozzarella, parmesan, ground beef</p>
+    <hr>
+    <h1><b>Ravioli</b> <span class="pname">$14.50</span></h1>
+    <p class="ingr">Ravioli filled with cheese</p>
+    <hr>
+    <h1><b>Spaghetti Classica</b> <span class="pname">$11.00</span></h1>
+    <p class="ingr">Fresh tomatoes, onions, ground beef</p>
+    <hr>
+    <h1><b>Seafood pasta</b> <span class="pname">$25.50</span></h1>
+    <p class="ingr">Salmon, shrimp, lobster, garlic</p>
+</div>
+<div id="Starters" class="list hidden">
+    <h1><b>Today's Soup</b> <span class="new">Seasonal</span><span class="pname">$5.50</span></h1>
+    <p class="ingr">Ask the waiter</p>
+    <hr>
+    <h1><b>Bruschetta</b> <span class="pname">$8.50</span></h1>
+    <p class="ingr">Bread with pesto, tomatoes, onion, garlic</p>
+    <hr>
+    <h1><b>Garlic bread</b> <span class="pname">$9.50</span></h1>
+    <p class="ingr">Grilled ciabatta, garlic butter, onions</p>
+    <hr>
+    <h1><b>Tomozzarella</b> <span class="pname">$10.50</span></h1>
+    <p class="ingr">Tomatoes and mozzarella</p>
+</div><br>
+
+<!-- About Container -->
+<div class="container" id="about">
+    <div class="content">
+        <h1 class="text" style="margin-bottom:64px">About</h1>
+        <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br><p><strong>The Chef?</strong> Mr. Italiano himself<img src="chef.jpg" style="width:150px" class="circle" alt="Chef"></p>
+    <br><p>We are proud of our interiors.</p>
+        <img src="onepage_restaurant.jpg" style="width:100%" class="margin" alt="Restaurant">
+        <h1><b>Opening Hours</b></h1>
+<div class="left">
+                <br><p>Mon & Tue CLOSED</p>
+                <br><p>Wednesday 10.00 - 24.00</p>
+                <br><p>Thursday 10:00 - 24:00</p>
+            </div>
+    <div class="right">
+                <br><p>Friday 10:00 - 12:00</p>
+                <br><p>Saturday 10:00 - 23:00</p>
+                <br><p>Sunday Closed</p>
+            </div>
+            <!-- Contact -->
+            <div id="googleMap" class="grayscale" style="width:100%;height:400px;"></div>
+
+            <div class="container">
+                <div class="content">
+                    <h1 class="text" style="margin-bottom:64px">Contact</h1>
+                    <br><p>Find us at some address at some place or call us at 05050515-122330</p>
+                    <p><span class="tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                    <br><p class=""><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+                    <form action="" target="_blank">
+                        <br><p><input class="form" type="text" placeholder="Name" required name="Name"></p>
+                        <br><p><input class="form" type="number" placeholder="How many people" required name="People"></p>
+                        <br><p><input class="form" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+                        <br><p><input class="form" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+                        <br><p><button class="buttondesign" type="submit">SEND MESSAGE</button></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="" target="_blank" class="">W3.css</a></p>
+</footer>
+<script>
+    const Pizza = 1;
+    const Pasta = 2;
+    const Starters = 3;
+
+
+    function changePage(page) {
+        var firstPageElm = document.getElementById("Pizza");
+        var secondPageElm = document.getElementById("Pasta");
+        var thirdPageElm = document.getElementById("Starters");
+
+        firstPageElm.classList.add('hidden');
+        secondPageElm.classList.add('hidden');
+        thirdPageElm.classList.add('hidden');
+
+        switch (page) {
+            case Pizza:
+                firstPageElm.classList.remove('hidden');
+                break;
+            case Pasta:
+                secondPageElm.classList.remove('hidden');
+                break;
+            case Starters:
+                thirdPageElm.classList.remove('hidden');
+                break;
+        }
+    }
+
+    function changeActiveBtn(btnElm) {
+        var buttons = document.getElementsByTagName('button');
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('active');
+        }
+        btnElm.classList.add('active');
+    }
+
+</script>
+<script>
+    function myMap()
+    {
+        myCenter=new google.maps.LatLng(41.878114, -87.629798);
+        var mapOptions= {
+            center:myCenter,
+            zoom:12, scrollwheel: false, draggable: false,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myCenter,
+        });
+        marker.setMap(map);
+    }
+
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" red", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " red";
+    }
+    document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-17.jpg")
+}
+div{
+    width:66%;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+input[type=text]
+{
+width:45%;
+float: left;
+    border-radius: 7px;
+}
+textarea{
+    width:45%;
+    float: right;
+    border-radius: 7px;
+}
+input[type=button]{
+    width: 100%;
+    border-radius: 15px;
+    background-color: tomato;
+    padding: 10px;
+
+}
+.form{
+    color:white;
+    margin: 50px 500px;}
+.form2{
+
+    color:white;
+    }
+#registration{
+    width:50%;
+    background-color: grey;
+    border-radius: 15px;
+    opacity: 0.8;
+    padding: 20px;
+}
+#registration2{
+    width: 50%;
+    float:right;
+
+}

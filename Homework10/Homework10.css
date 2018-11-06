@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+"
+}
+
+body, html {
+    height: 100%;
+    background-color: black;
+}
+
+.bgimg {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(pizza.jpg);
+    min-height: 90%;
+    filter: grayscale(50%);
+    z-index: 1;
+}
+
+#Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#Navbar:hover {
+    opacity: 1.0;
+}
+
+.button {
+    display: block;
+    float: left;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 16px;
+}
+
+.button:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+#display-middlecenter {
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 36px;
+    font-family: "Amatic SC", sans-serif;
+    padding: 12px 20px;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.display-bottomleft {
+    position: fixed;
+    top: 625px;
+    left: 15px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    z-index: 3;
+    padding: 4px;
+    text-align: center;
+}
+
+#menu {
+    width: 75%;
+    color: black;
+    font-size: 64px;
+    margin:auto;
+}
+
+#menuheader {
+    padding: 80px;
+    text-align: center;
+    color:white;
+}
+
+#menucontainer {
+    width: 75%;
+    margin: auto;
+}
+
+#menusection {
+   margin:auto;
+    width: 75%;
+ background-color:white;
+    color:black;
+    font-size: 30px;
+}
+
+.menublack {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: 32px;
+    font-family: "Amatic SC", sans-serif;
+    padding: 20px 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.menublack:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.menured {
+    display: inline-block;
+    float: left;
+    width: 34%;
+    background-color: #f44336;
+    color: white;
+    border: 0;
+    font-size: 32px;
+    font-family: "Amatic SC", sans-serif;
+    padding: 20px 30px;
+    margin: 0;
+    border-right: 1px solid darkgrey;
+    text-align: center;
+}
+
+.menured:hover {
+    background-color: #f44336;
+    color: white;
+}
+.content {
+    max-width: 980px;
+    margin: 0 230px;
+}
+.container {
+    color: white;
+    background-color: #f44336;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 24px;
+    filter: grayscale(75%);
+}
+.text {
+text-align:center;
+    font-size:64px;
+}
+.circle{
+float: right;
+    border-radius: 50%;
+}
+.margin{
+    margin-bottom:16px;
+    margin-top:16px;
+}
+.grayscale {
+
+}
+.right {
+    width: 50%;
+    float:right;
+}
+.left{
+    width: 50%;
+    float:left;
+}
+.form{
+padding: 8px;
+    display:block;
+    width: 100%;
+    border: 1px solid #cccccc;
+}
+.footer {
+    color:white;
+    background-color: black;
+    text-align:center;
+    font-size: 36px;
+    padding-top:48px;
+    padding-bottom:48px;
+}
+.buttondesign {
+    color:black;
+    background-color: #cccccc;
+    padding: 4px;
+    margin: 0 20px 0 0;
+    display:block;
+    width:100%;
+
+}
+.tag{
+background-color: black;
+    color:white;
+    display: inline-block;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center;
+}
+.pname {
+    color: white;
+    background-color: #616161;
+    float:right;
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.ingr {
+    color: #757575;
+}
+.list {
+padding-top: 32px;
+    padding-bottom: 32px;
+    color:black;
+    background-color: white;
+    font-size: 25px;
+    margin:auto;
+    width:75%;
+
+}
+.hot{
+    color:white;
+    background-color: #f44336;
+    border-radius: 4px;
+}
+.new {
+    display: inline-block;
+    color:black;
+    background-color: #9e9e9e;
+}
+.hidden {
+    display:none;
+}
